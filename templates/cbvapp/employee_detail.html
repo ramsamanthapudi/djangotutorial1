@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Namasthe</title>
+</head>
+<body>
+
+    {{ employee.EmpID }}
+    {{ employee.Empname| upper }}
+    {{ employee.EmpAge }}
+    {{ employee.EmpSal }}
+    {{ employee.EmpDesignation }}
+    {{ employee.Empcity }}
+
+    <a href="/update/{{employee.EmpID}}">Update</a>
+    <a href="/delete/{{employee.EmpID}}">delete</a>
+
+</body>
+</html>

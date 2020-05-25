@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Namasthe</title>
+</head>
+<body>
+    {% for empl in employee_list %}
+    {{ empl.EmpID }}
+    {{ empl.Empname }}
+    {{ empl.EmpAge }}
+    {{ empl.EmpSal }}
+    {{ empl.EmpDesignation }}
+    {{ empl.Empcity }}
+    {% endfor %}
+</body>
+</html>
